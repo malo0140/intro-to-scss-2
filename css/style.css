@@ -1,0 +1,59 @@
+/* Imports */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+html {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+}
+
+.border, ul {
+  border: 1px solid #a6a6a6;
+}
+
+.border p, ul p {
+  color: #33cccc;
+}
+
+@media only screen and (min-width: 30em) {
+  .border, ul {
+    border-color: #33cccc;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .border, ul {
+    border-color: #a6a6a6;
+  }
+}
+
+.primary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #33cccc;
+}
+
+.primary-btn:hover {
+  background: #1f7a7a;
+}
+
+.secondary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #a6a6a6;
+}
+
+.secondary-btn:hover {
+  background: #737373;
+}
+
+/*# sourceMappingURL=style.css.map */

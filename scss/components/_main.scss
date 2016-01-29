@@ -1,0 +1,32 @@
+html{
+	font-family: $lato;
+}
+
+h1{
+	font-family: $lato;
+}
+
+.border{
+	border: 1px solid $grey;
+	p{
+		color: $blue;
+	}
+	@media only screen and (min-width: 30em){
+		border-color: $blue;
+	}
+	@media only screen and (min-width: 60em){
+		border-color: $grey;
+	}
+}
+
+.primary-btn {
+	@include button($blue);
+}
+
+.secondary-btn {
+	@include button($grey);
+}
+
+ul {
+	@extend .border; 
+}

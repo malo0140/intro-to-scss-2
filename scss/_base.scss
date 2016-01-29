@@ -1,0 +1,12 @@
+// Colors
+$grey: #a6a6a6;
+$blue: #33cccc;
+
+// you can use variables inside variables 
+$primary: $blue;
+$secondary: $grey;
+
+
+//Font Families
+@import url(https://fonts.googleapis.com/css?family=Lato);
+$lato: 'Lato', sans-serif;
